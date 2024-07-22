@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>CodeSpace Cat's Portfolio</title>
 </head>
 
@@ -12,7 +11,7 @@
     <header>
         <h1>CodeSpace Cat's Portfolio 🎨</h1>
         <nav>
-            <!-- Navigation Menu - create an unordered list -->
+            <!-- Navigation Menu -->
             <ul>
                 <li><a href="#aboutme">About Me 👋</a></li>
                 <li><a href="#skills">Skills ⚒️</a></li>
@@ -26,31 +25,70 @@
     <section id="about-me">
         <h2>About Me 🐱</h2>
         <img src="./images/cat-codespace.png" alt="My Profile Picture">
+        <p>Hello! I'm <strong>CodeSpace Cat.</strong> I'm purr-ssionate about web development and design. I've been pawing at the web industry for just one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twitching, and fur-tastic web experience. Whoa that's a lot of puns. 🐾</p>
     </section>
     
     <!-- Skills Section -->
-    <section id="">
+    <section id="skills">
+        <h2>My Skills 🤹🏽‍♂️</h2>
+        <ul>
+            <li>Web Development 🕸️</li>
+            <li>UI/UX Design 🎨</li>
+            <li>Backend Development 🧱</li>
+            <li>Database Management 💻</li>
+            <li>SEO Optimization 🔎</li>
+            <li>Lying in the Sun 🌞</li>
+        </ul>
     </section>
     
     <!-- Portfolio Section -->
-    <section id="">
+    <section id="portfolio-details">
         <h2>Catfolio</h2>
         <table>
-        <thead>
-        </thead>
-        <td><img src="https://i.imgur.com/eLykdqE.png" alt="Thumbnail for Purrfect Landing Page">
-        <td><img src="https://i.imgur.com/Fb2eueT.png" alt="Thumbnail for Kitty Commerce">
-        <td><img src="https://i.imgur.com/t1PwXIx.png" alt="Thumbnail for CatChat Social">
-    
+            <thead>
+                <th scope="col">Project Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+                <th scope="col">Thumbnail</th>
+            </thead>
+            <tbody>
+                <th scope="row">Purrfect Landing Page</th>
+                <th>January 2024</th>
+                <th>A delightful landing page for a luxury cat condo.</th>
+                <td><img src="./images/1.png" alt="Thumbnail for Purrfect Landing Page">
+            </tbody>
+            <tbody>
+                <th scope="row">Kitty Commerce</th>
+                <th>February 2024</th>
+                <th>An online store selling the fanciest catnip toys.</th>
+                <td><img src="./images/2.png" alt="Thumbnail for Kitty Commerce">
+            </tbody>
+            <tbody>
+                <th scope="row">CatChat Social</th>
+                <th>June 2024</th>
+                <th>A social media site for cats to meow and hiss!</th>
+                <td><img src="./images/3.png" alt="Thumbnail for CatChat Social">
+            </tbody>
         </table>
     </section>
     
     <!-- Contact Section -->
-    <section id="">  
+    <section id="contact-details"> 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+        
+        <button>Submit</button>
     </section>
     
     <!-- Footer -->
     <footer>
+        <p>©️ 2024 CodeSpace Cat.All rights reserved.</p>
     </footer>
   
 </body>
